@@ -27,7 +27,7 @@ public class Constants
 
     //misc
     public const string Game = "Game";
-    public const float CameraDefaultZone = 60f;
+    public const float CameraDefaultZoom = 60f;
 
     public static readonly int[] AllPickUpTypes = new int[5]
     {
