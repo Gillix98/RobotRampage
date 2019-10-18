@@ -21,7 +21,7 @@ public class Constants
     //Pickup Types
     public const int PickUpPistolAmmo = 1;
     public const int PickUpAssaultRifleAmmo = 2;
-    public const int PickUPShotgunAmmo = 3;
+    public const int PickUpShotgunAmmo = 3;
     public const int PickUpHealth = 4;
     public const int PickUpArmor = 5;
 
@@ -33,7 +33,7 @@ public class Constants
     {
         PickUpPistolAmmo,
         PickUpAssaultRifleAmmo,
-        PickUPShotgunAmmo,
+        PickUpShotgunAmmo,
         PickUpHealth,
         PickUpArmor
     };
