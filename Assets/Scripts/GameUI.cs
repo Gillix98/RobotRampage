@@ -116,6 +116,12 @@ public class GameUI : MonoBehaviour
         pickupText.GetComponent<Text>().enabled = false;
     }
 
+    public void ShowNewWave()
+    {
+        StartCoroutine("hideNewWaveText");
+        newWaveText.GetComponent<Text>().enabled = true;
+    }
+
     IEnumerator hideNewWave()
     {
         yield return new WaitForSeconds(4);
